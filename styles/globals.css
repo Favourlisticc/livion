@@ -37,21 +37,6 @@ body {
 }
 
 
-
-.navbar {
-
-}
-
-.logo {
-}
-
-.menu-icon {
-  display: none;
-}
-
-.nav-elements {
-}
-
 .nav-elements ul {
   display: flex;
   justify-content: space-between;
@@ -97,7 +82,7 @@ body {
 .btn-content {
   display: flex;
   align-items: center;
-  padding: 5px 30px;
+ 
   text-decoration: none;
 
   color: var(--color-text);
@@ -128,8 +113,8 @@ body {
 }
 
 .icon-arrow {
-  width: 20px;
-  margin-left: 15px;
+  width: 0px;
+  margin-left: 0px;
   position: relative;
   top: 6%;
 }
@@ -196,10 +181,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  .menu-icon {
-    display: block;
-    cursor: pointer;
-  }
+
 
   .nav-elements {
     position: absolute;

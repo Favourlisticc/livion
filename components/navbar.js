@@ -53,13 +53,13 @@ const Navbar = () => {
 
     return (
         <nav className="bg-white h-20 max-sm:w-full">
-          <div className="flex h-full items-center max-sm:block">
-          <div className="ml-16 max-sm:mr-20">
-                    <Image src={logo} className="w-32 h-8 max-sm:w-32 max-sm:h-5"/>
+          <div className="flex h-full  items-center">
+          <div className="ml-16 max-sm:ml-2 max-sm:mr-2">
+                    <Image src={logo} className="w-32 h-8 max-sm:w-20 max-sm:h-5"/>
                 </div>
 
-                <div className=" btn-conteiner hidden">
-              <button className="text-white bg-orange-500 h-8 w-32 rounded-3xl btn-content">
+                <div className=" btn-conteiner hidden ml-9">
+              <button className="text-white bg-orange-500 h-10 w- max-sm:w-40 rounded-3xl btn-content max-sm:pl-3">
 
                 Book A Demo
 
@@ -75,7 +75,7 @@ const Navbar = () => {
 
                 </button>
               </div>
-            <div className="menu-icon" onClick={handleShowNavbar}>
+            <div className=" hidden menu-icon max-sm:items-center max-sm:flex ml-5" onClick={handleShowNavbar}>
               <Hamburger />
             </div>
 
