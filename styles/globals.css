@@ -71,12 +71,7 @@ body {
 }
 
 .btn-conteiner {
-  display: flex;
-  justify-content: center;
-  --color-text: #ffffff;
-  --color-background: #ff135a;
-  --color-outline: #ff145b80;
-  --color-shadow: #00000080;
+
 }
 
 .btn-content {
@@ -85,7 +80,7 @@ body {
  
   text-decoration: none;
 
-  color: var(--color-text);
+  
 
   transition: 1s;
   border-radius: 100px;
