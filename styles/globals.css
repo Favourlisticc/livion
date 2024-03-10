@@ -80,7 +80,7 @@ body {
  
   text-decoration: none;
 
-  
+
 
   transition: 1s;
   border-radius: 100px;
@@ -181,8 +181,8 @@ body {
   .nav-elements {
     position: absolute;
     right: 0;
-    top: 60px;
-    background-color: #fef7e5;
+    top: 70px;
+    background-color: #fff;
     width: 0px;
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
@@ -190,7 +190,7 @@ body {
   }
 
   .nav-elements.active {
-    width: 270px;
+    width: 100%;
   }
 
   .nav-elements ul {
@@ -200,6 +200,6 @@ body {
 
   .nav-elements ul li {
     margin-right: unset;
-    margin-top: 22px;
+    margin-top: 100px;
   }
 }

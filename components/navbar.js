@@ -83,19 +83,19 @@ const Navbar = () => {
 
               <ul className="mt-2">
                 <li>
-                  <Link href="/" className="mr-12">Home</Link>
+                  <Link href="/" className="mr-12 max-sm:mr-0">Home</Link>
                 </li>
                 <li>
-                  <Link href="/" className="mr-12">About US</Link>
+                  <Link href="/" className="mr-12 max-sm:mr-0">About US</Link>
                 </li>
                 <li>
                   <Link href="/" className="mr-12">Solution</Link>
                 </li>
                 <li>
-                  <Link href="/" className="mr-12">Pricing</Link>
+                  <Link href="/" className="mr-12 max-sm:mr-0">Pricing</Link>
                 </li>
                 <li>
-                  <Link href="/" className="mr-12">Contact</Link>
+                  <Link href="/" className="mr-12 max-sm:mr-0">Contact</Link>
                 </li>
               </ul>
 
